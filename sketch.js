@@ -201,6 +201,7 @@ function reset(){
   gameState = PLAY;
   gameOver.visible = false;
   restart.visible = false;
+  death.visible = true;
   
   obstaclesGroup.destroyEach();
   cloudsGroup.destroyEach();
