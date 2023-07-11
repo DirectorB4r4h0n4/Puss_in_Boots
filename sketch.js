@@ -170,7 +170,7 @@ function spawnClouds() {
 }
 
 function spawnObstacles() {
-  if(frameCount % 60 === 0) {
+  if(frameCount % 70 === 0) {
     var obstacle = createSprite(width+20,height-95,40,10);
     obstacle.setCollider('circle',0,0,45)
     // obstacle.debug = true
